@@ -1,0 +1,42 @@
+{
+  "identifier": "STOREKIT_CONFIG",
+  "nonRenewingSubscriptions": [],
+  "products": [],
+  "settings": {
+    "_askToBuyEnabled": false
+  },
+  "subscriptionGroups": [
+    {
+      "id": "SUBGROUP1",
+      "localizations": [],
+      "name": "Roamly - Trip Log Pro",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "2.99",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "SUB1",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "Unlimited trips, CSV export & stats",
+              "displayName": "Roamly Pro",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.shimondeitel.triplog.pro.monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "Roamly Pro",
+          "subscriptionGroupID": "SUBGROUP1",
+          "type": "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}
